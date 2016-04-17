@@ -68,7 +68,7 @@
 {
     
     _webView = [[UIWebView alloc] init];
-    [_webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://www.douyu.com/551037"]]];
+    [_webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://www.douyu.com/cold"]]];
     _webView.delegate = self;
     NSArray *titles = [[NSArray alloc] initWithObjects:
                        @"聊天",
